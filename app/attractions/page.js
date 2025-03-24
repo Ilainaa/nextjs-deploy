@@ -20,7 +20,7 @@ export default async function Page() {
     <Box sx={{ display: 'flex', justifyContent: 'center', minHeight: '100vh', padding: 4 }}>
       <Grid container spacing={3} maxWidth={800}>
         <Grid item xs={12}>
-          <Typography variant="h4" textAlign="center">Attractions</Typography>
+          <Typography variant="h4" textAlign="center">Hello Attractions</Typography>
         </Grid>
 
         {data.map((attraction) => (
